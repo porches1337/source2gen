@@ -649,7 +649,7 @@ public:
     SchemaClassInfoData_t* m_pSelf; // 0x0000
     const char* m_pszName; // 0x0008
     const char* m_pszModule; // 0x0010
-    const char* m_szInternalName;
+    const char* m_szInternalName; // 0x0018
 
     int m_nSizeOf; // 0x0020
 
